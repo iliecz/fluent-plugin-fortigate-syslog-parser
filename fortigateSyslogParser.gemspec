@@ -1,23 +1,23 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "../fortigateSyslogParser/lib/fortigateSyslogParser/version"
+
 
 Gem::Specification.new do |spec|
   spec.name          = "fortigateSyslogParser"
-  spec.version       = FortigateSyslogParser::VERSION
+  spec.version       = "0.1.1"
   spec.authors       = ["Ilie Cazangiu "]
   spec.email         = ["ilie.cazangiu@yahoo.co.uk"]
 
   spec.summary       = %q{Parser for Fortigate syslog.}
   spec.description   = %q{Fortigate syslog fails the standard check when using the standard syslog input plugin. This was designed and tested to work on Fortigate 100D}
-  spec.homepage      = "https://github.com/iliecz/ruby-fluentd"
+  spec.homepage      = "hhttps://github.com/iliecz/Fluentd-Plugin-FortigateSyslogParser"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/iliecz/ruby-fluentd"
-  spec.metadata["changelog_uri"] = "https://github.com/iliecz/ruby-fluentd"
+  spec.metadata["source_code_uri"] = "https://github.com/iliecz/Fluentd-Plugin-FortigateSyslogParser"
+  spec.metadata["changelog_uri"] = "https://github.com/iliecz/Fluentd-Plugin-FortigateSyslogParser"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
