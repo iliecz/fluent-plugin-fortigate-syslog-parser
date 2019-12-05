@@ -1,5 +1,5 @@
-#Parse the non standard Fortigate emitted SysLogs. This was tested on a Fortigate 100D device.
-# Version 0.1.0
+# Parsing of Fortigate logs
+# Version 0.1.1
 module Fluent::Plugin
   class FortigateSyslogParser < Parser
     Fluent::Plugin.register_parser('FortigateSyslogParser', self)
