@@ -4,18 +4,11 @@ FortigateSyslogParser is a plugin for fluentd intended to parse the syslogs issu
 This was implemented and tested for a Fortigate 100D device with FortiOS 6.2.0 installed.
 Fortigate as well as other devices brakes regular syslog parsing due to the date/time format.
 ## Installation
+navigate to your fluentd installation binary usually in \opt\td-agent\embedded\bin
 
-```ruby
-gem 'fluent-plugin-fortigate-syslog-parser-0.1.0'
+```cmd
+fluent-gem install 'fluent-plugin-fortigate-syslog-parser'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install fortigateSyslogParser
 
 ## Usage
 After installing, configure the parser plugin in the td-agent.conf:

@@ -2,7 +2,7 @@
 # Version 0.1.0
 module Fluent::Plugin
   class FortigateSyslogParser < Parser
-    Fluent::Plugin.register_parser('FortigateSysLogParser', self)
+    Fluent::Plugin.register_parser('FortigateSyslogParser', self)
     config_param :headerDelimiter, :string, default: '<([0-9]){3}>' #delimiter for the header
     config_param :delimiter, :string, default: '\\s(?=(?:[^\\"]*\\"[^\\"]*\\")*[^\\"]*$)'   # delimiter is configurable with " " as default
     config_param :separator, :string, default: "=" #key/value delimiter
