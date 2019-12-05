@@ -1,14 +1,12 @@
 #Parse the non standard Fortigate emitted SysLogs. This was tested on a Fortigate 100D device.
 # Version 0.1.0
-
-require 'fluent/plugin/parser'
-
 module Fluent::Plugin
   class FortigateSyslogParser < Parser
     Fluent::Plugin.register_parser('FortigateSysLogParser', self)
     config_param :headerDelimiter, :string, default: '<([0-9]){3}>' #delimiter for the header
     config_param :delimiter, :string, default: '\\s(?=(?:[^\\"]*\\"[^\\"]*\\")*[^\\"]*$)'   # delimiter is configurable with " " as default
     config_param :separator, :string, default: "=" #key/value delimiter
+
 
 
     def configure (conf)

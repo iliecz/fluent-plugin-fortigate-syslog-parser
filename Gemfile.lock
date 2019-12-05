@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fortigateSyslogParser (0.1.0)
+    fluent-plugin-fortigate-syslog-parser (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -60,8 +60,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
+  fluent-plugin-fortigate-syslog-parser!
   fluentd
-  fortigateSyslogParser!
   rake (~> 10.0)
 
 BUNDLED WITH

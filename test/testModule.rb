@@ -7,8 +7,9 @@ require 'fluent/test/driver/base'
 require 'fluent/test/driver/output'
 require 'fluent/plugin/out_file'
 require 'fluent/plugin/parser'
-require 'D:\Dev\Ruby\FluentdPlugins\fortigateSyslogParser\fortigateSyslogParser\lib\fluent\plugin\parser_fortigateSyslogParser'
-#require '../../fortigateSyslogParser/lib/fortigateSyslogParser'
+require 'D:\Dev\Ruby\FluentdPlugins\fortigate-syslog-parser\fluent-plugin-fortigate-syslog-parser-0.1.0\lib\fluent\plugin\parser_fortigateSyslogParser'
+
+#require '../../fluent-plugin-fortigate-syslog-parser-0.1.0/lib/fluent-plugin-fortigate-syslog-parser-0.1.0'
 require 'test-unit'
 
 class MyParserTest < Test::Unit::TestCase

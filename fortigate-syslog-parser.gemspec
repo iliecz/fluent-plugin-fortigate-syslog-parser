@@ -3,14 +3,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 
 Gem::Specification.new do |spec|
-  spec.name          = "fortigateSyslogParser"
-  spec.version       = "0.1.1"
+  spec.name          = "fluent-plugin-fortigate-syslog-parser"
+  spec.version       = "0.1.0"
   spec.authors       = ["Ilie Cazangiu "]
   spec.email         = ["ilie.cazangiu@yahoo.co.uk"]
 
   spec.summary       = %q{Parser for Fortigate syslog.}
   spec.description   = %q{Fortigate syslog fails the standard check when using the standard syslog input plugin. This was designed and tested to work on Fortigate 100D}
-  spec.homepage      = "hhttps://github.com/iliecz/Fluentd-Plugin-FortigateSyslogParser"
+  spec.homepage      = "https://github.com/iliecz/Fluentd-Plugin-FortigateSyslogParser"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"

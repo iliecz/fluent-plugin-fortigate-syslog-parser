@@ -5,7 +5,7 @@ FortigateSyslogParser is a plugin for fluentd intended to parse the syslogs issu
 ## Installation
 
 ```ruby
-gem 'fortigateSyslogParser'
+gem 'fluent-plugin-fortigate-syslog-parser-0.1.0'
 ```
 
 And then execute:
